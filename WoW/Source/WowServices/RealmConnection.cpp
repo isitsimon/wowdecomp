@@ -31,7 +31,7 @@ int32_t RealmConnection::HandleCharEnum(uint32_t msgId, uint32_t time, CDataStor
 
     int32_t invalid = 0;
 
-    if (count > 10) {
+    if (count > 100) {
         count = 0;
         invalid = 1;
     }
